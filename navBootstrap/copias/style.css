@@ -61,12 +61,14 @@ height: 85px;
 }
 .nav.link:hover, a.nav-link:hover{
     /*background-color: #d9d9d9;*/
-}
-
-a.nav-link:focus {
-    border-bottom: 2px solid white;
-    color: white;
-}
+    /*border-bottom:white;
+    border-bottom: 3px;*/
+    
+}a.nav-link:focus {
+    /*background: rgb(187, 172, 201);
+    border-radius: 10px;*/
+    border-bottom: 5px solid white;
+  }
 
 .nav-link {
     font-size: 13px;
